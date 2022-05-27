@@ -1,0 +1,21 @@
+.snapshot {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	height: 600px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.sunset {
+	background-image: url('../images/sunset_bg.jpg');
+}
+
+.leafs {
+	background-image: url('../images/leafs_bg.jpg');
+}
+
+.starfall {
+	background-image: url('../images/starfall_bg.jpg');
+}

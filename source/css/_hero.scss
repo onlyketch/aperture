@@ -1,0 +1,21 @@
+.hero {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	background-color: #000000;
+	background: linear-gradient(360deg, #000000 18.78%, rgba(0, 0, 0, 0) 98.53%), url('../images/hero_bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 711px;
+	&__text {
+		max-width: 600px;
+		margin-bottom: 61px;
+		text-align: center;
+	}
+	&__desc {
+		margin-top: 16px;
+		text-align: center;
+	}
+}

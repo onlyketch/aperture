@@ -1,0 +1,87 @@
+body {
+	font-family: "Poppins", sans-serif;
+	font-size: 14px;
+	color: #C0C0C0;
+	line-height: 20px;
+}
+
+h1 {
+	margin-top: 1px;
+	font-size: 54px;
+	line-height: 59px;
+	color: #FFFFFF;
+}
+
+h2 {
+	font-size: 40px;
+	line-height: 42px;
+	color: #FFFFFF;
+}
+
+h3 {
+	font-size: 28px;
+	line-height: 32px;
+	color: #FFFFFF;
+}
+
+.container {
+	max-width: 1176px;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+
+.btn {
+	border: none;
+	border-radius: 14px;
+	outline: none;
+	cursor: pointer;
+	padding: 10px 20px;
+	font-family: "Poppins", sans-serif;
+	font-size: 15px;
+	color: #000000;
+	letter-spacing: 0.4px;
+	transition: background-color .3s ease-in;
+
+	&:hover {
+		background-color: #E8E8E8;
+	}
+}
+
+.preheader {
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.subtitle {
+	font-size: 23px;
+	line-height: 30px;
+}
+
+.data {
+	position: absolute;
+	bottom: 40px;
+	right: calc(40px / 1440px * 100%);
+	display: flex;
+	&__item {
+		display: flex;
+		align-items: flex-start;
+		margin-left: 16px;
+		font-size: 12px;
+		line-height: 12px;
+		color: #FFFFFF;
+	}
+	&__icon {
+		height: 16px;
+		margin-right: 6px;
+	}
+}
+
+.sign {
+	max-width: 298px;
+	margin-right: calc(62px / 1440px * 100%);
+	&__title {
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		color: #FFFFFF;
+	}
+}

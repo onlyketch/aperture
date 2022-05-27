@@ -1,0 +1,107 @@
+.footer {
+	background-color: #000000;
+	padding: 100px 0;
+	&__top {
+		display: flex;
+		justify-content: space-between;
+		padding-bottom: 36px;
+		border-bottom: 2px solid #FFFFFF;
+
+		&-right {
+			display: flex;
+		}
+		&-left {
+
+		}
+	}
+
+	&__slogan {
+		margin-top: 20px;
+	}
+	&__top-right {
+	}
+	&__nav {
+		display: flex;
+		flex-direction: column;
+		min-width: 220px;
+		margin-left: 16px;
+
+		&-title {
+			letter-spacing: 2px;
+			text-transform: uppercase;
+		}
+	}
+
+	&__link {
+		color: #FFFFFF;
+		text-decoration: none;
+		margin-top: 10px;
+	}
+	&__subscribe {
+		display: flex;
+		justify-content: space-between;
+		padding: 36px 0;
+		border-bottom: 2px solid #FFFFFF;
+		&-left {}
+		&-right {}
+		&-title {
+			text-transform: uppercase;
+			letter-spacing: 2px;
+			color: #FFFFFF;
+		}
+		&-subtitle {
+			font-size: 13px;
+			margin-top: 20px;
+		}
+
+	}
+	&__form {
+		position: relative;
+	}
+	&__input {
+		min-width: 458px;
+		border: none;
+		outline: none;
+		border-radius: 12px;
+		height: 52px;
+		padding: 0 15px;
+		box-sizing: border-box;
+		font-family: "Poppins", sans-serif;
+		font-size: 15px;
+
+		&::placeholder {
+			color: #C0C0C0;
+		}
+	}
+	&__submit {
+		position: absolute;
+		right: 15px;
+		top: 10px;
+		border: none;
+		outline: none;
+		cursor: pointer;
+		background-color: #000000;
+		color: #FFFFFF;
+		border-radius: 11px;
+		font-family: "Poppins", sans-serif;
+		font-size: 14px;
+		padding: 5px 13px;
+	}
+	&__bottom {
+		display: flex;
+		justify-content: space-between;
+		padding-top: 56px;
+	}
+	&__copyright {}
+	&__social {
+		display: flex;
+		&-link {
+			text-decoration: none;
+			margin-left: 20px;
+		}
+		&-icon {
+			width: 24px;
+			height: 24px;
+		}
+	}
+}

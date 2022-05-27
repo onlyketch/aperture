@@ -1,0 +1,32 @@
+.tools {
+	&__wrap {
+		display: flex;
+	}
+	&__left {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 50%;
+		background-color: #000000;
+		min-height: 540px;
+	}
+	&__text {
+		max-width: 514px;
+		padding: 60px 46px 40px 40px;
+	}
+	&__title {
+		margin-top: 6px;
+	}
+	&__desc {
+		margin: 14px 0 20px 0;
+		color: #FFFFFF;
+	}
+	&__right {
+		position: relative;
+		width: 50%;
+		background-image: url('../images/tools_bg.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+}
