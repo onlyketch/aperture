@@ -10,12 +10,24 @@ h1 {
 	font-size: 54px;
 	line-height: 59px;
 	color: #FFFFFF;
+		
+	@media (max-width: 599px) {
+		font-size: 36px;
+	}
+
+	@media (max-width: 359px) {
+		font-size: 32px;
+	}	
 }
 
 h2 {
 	font-size: 40px;
 	line-height: 42px;
 	color: #FFFFFF;
+	
+	@media (max-width: 599px) {
+		font-size: 28px;
+	}		
 }
 
 h3 {
@@ -35,15 +47,16 @@ h3 {
 	border-radius: 14px;
 	outline: none;
 	cursor: pointer;
+	background-color: #FFFFFF;
 	padding: 10px 20px;
 	font-family: "Poppins", sans-serif;
 	font-size: 15px;
 	color: #000000;
 	letter-spacing: 0.4px;
-	transition: background-color .3s ease-in;
+	transition: background-color .2s ease-in;
 
 	&:hover {
-		background-color: #E8E8E8;
+		background-color: #E1E0E0;
 	}
 }
 
@@ -55,6 +68,10 @@ h3 {
 .subtitle {
 	font-size: 23px;
 	line-height: 30px;
+	
+	@media (max-width: 599px) {
+		font-size: 18px;
+	}	
 }
 
 .data {
@@ -74,6 +91,11 @@ h3 {
 		height: 16px;
 		margin-right: 6px;
 	}
+
+	@media (max-width: 599px) {
+		width: 100%;
+		justify-content: center;
+	}
 }
 
 .sign {
@@ -84,4 +106,10 @@ h3 {
 		text-transform: uppercase;
 		color: #FFFFFF;
 	}
+
+	@media (max-width: 599px) {
+		margin: 0 auto;
+		padding: 0 20px;
+		text-align: center;
+	}	
 }

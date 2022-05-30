@@ -7,6 +7,10 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+
+	@media (max-width: 599px) {
+		height: 400px;
+	}	
 }
 .sunset {
 	background-image: url('../images/sunset_bg.jpg');

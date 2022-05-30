@@ -1,13 +1,16 @@
 .help {
 	background-color: #000000;
 	text-align: center;
-	padding-top: 113px;
-	padding-bottom: 108px;
+	padding: 113px 30px 108px 30px;
 
 	.subtitle {
 		margin-top: 15px;
 	}
 	.btn {
 		margin-top: 22px;
+	}
+
+	@media (max-width: 599px) {
+		padding: 50px 30px 50px 30px; 
 	}
 }

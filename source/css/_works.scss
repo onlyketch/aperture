@@ -14,12 +14,28 @@
 		display: flex;
 		flex-wrap: wrap;
 		margin: -8px;
+
+		@media (max-width: 1023px) {
+			flex-direction: column;
+			align-items: center;
+			margin: 0;
+		}
 	}
 	&__item {
 		position: relative;
-		width: 576px;
+		width: calc(576px / 1192px * 100%); //576px
 		height: 600px;
 		margin: 8px;
+
+		@media (max-width: 1023px) {
+			width: 100%;
+			max-width: 576px;
+			margin: 0 0 16px 0;
+		}
+
+		@media (max-width: 599px) {
+			height: 400px;
+		}
 	}
 	&__image {
 		width: 100%;
@@ -29,8 +45,9 @@
 	&__info {
 		position: absolute;
 		bottom: 30px;
-		left: 30px;
-		max-width: 516px;
+		left: 0;
+		max-width: 100%;
+		padding: 0 30px;
 	}
 	&__name {
 		letter-spacing: 2px;
@@ -40,5 +57,9 @@
 	&__text {
 		margin-top: 9px;
 		margin-bottom: 16px;
+	}
+
+	@media (max-width: 599px) {
+		padding: 50px 0;
 	}
 }

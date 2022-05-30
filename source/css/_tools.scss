@@ -1,6 +1,10 @@
 .tools {
 	&__wrap {
 		display: flex;
+
+		@media (max-width: 1023px) {
+			flex-direction: column;
+		}
 	}
 	&__left {
 		display: flex;
@@ -9,6 +13,14 @@
 		width: 50%;
 		background-color: #000000;
 		min-height: 540px;
+
+		@media (max-width: 1023px) {
+			width: 100%;
+		}
+
+		@media (max-width: 599px) {
+			min-height: 400px;
+		}	
 	}
 	&__text {
 		max-width: 514px;
@@ -24,9 +36,18 @@
 	&__right {
 		position: relative;
 		width: 50%;
+		min-height: 540px;
 		background-image: url('../images/tools_bg.jpg');
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center;
+
+		@media (max-width: 1023px) {
+			width: 100%;
+		}
+
+		@media (max-width: 599px) {
+			min-height: 400px;
+		}		
 	}
 }
