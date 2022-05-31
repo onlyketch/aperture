@@ -113,3 +113,26 @@ h3 {
 		text-align: center;
 	}	
 }
+
+.hidden {
+	display: flex;
+	flex-direction: column;
+	background-color: #181818;
+	height: 0; //215px;
+	padding: 0 30px;
+	box-sizing: border-box;
+	transition: height .3s linear;
+	&__nav {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		flex: 1 0 auto;
+		text-decoration: none;
+		color: #FFFFFF;
+		border-bottom: 1px dashed #333333;
+	}
+}
+
+.hidden-visible {
+	height: 215px;
+}
