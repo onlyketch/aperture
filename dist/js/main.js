@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",function(){var e=document.querySelector(".header__burger"),n=document.querySelector(".hidden");e.addEventListener("click",function(){n.classList.toggle("hidden-visible")})});
