@@ -1,1 +1,1 @@
-document.addEventListener("DOMContentLoaded",function(){var e=document.querySelector(".header__burger"),n=document.querySelector(".hidden");e.addEventListener("click",function(){n.classList.toggle("hidden-visible")})});
+document.addEventListener("DOMContentLoaded",function(){var e=document.querySelector(".header__burger"),t=document.querySelector(".hidden"),n=document.querySelectorAll(".hidden__nav");e.addEventListener("click",function(){n.forEach(function(e){e.classList.toggle("opacity")}),t.classList.toggle("hidden-visible")})});
