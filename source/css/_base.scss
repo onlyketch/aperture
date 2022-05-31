@@ -123,6 +123,7 @@ h3 {
 	box-sizing: border-box;
 	transition: height .3s linear;
 	&__nav {
+		opacity: 0;
 		display: flex;
 		justify-content: flex-end;
 		align-items: center;
@@ -135,4 +136,8 @@ h3 {
 
 .hidden-visible {
 	height: 215px;
+}
+
+.opacity {
+	opacity: 1;
 }

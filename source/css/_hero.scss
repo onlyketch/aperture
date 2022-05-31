@@ -41,5 +41,9 @@
 		height: auto;
 		min-height: 411px;
 		align-items: flex-start;
+		background: linear-gradient(360deg, #000000 18.78%, rgba(0, 0, 0, 0) 98.53%), url('../images/hero_bg-xs.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
 	}
 }

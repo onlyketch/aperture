@@ -51,9 +51,7 @@ gulp.task('img', function() {
 			verbose: true
 		})))
 		.pipe(gulp.dest('dist/images'))
-		.pipe(webp({
-			quality: 90
-		}))
+		.pipe(webp())
 		.pipe(gulp.dest('dist/images'))
 });
 

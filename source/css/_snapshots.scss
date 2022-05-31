@@ -14,12 +14,24 @@
 }
 .sunset {
 	background-image: url('../images/sunset_bg.jpg');
+	
+	@media (max-width: 599px) {
+		background-image: url('../images/sunset_bg-xs.jpg');
+	}	
 }
 
 .leafs {
 	background-image: url('../images/leafs_bg.jpg');
+	
+	@media (max-width: 599px) {
+		background-image: url('../images/leafs_bg-xs.jpg');
+	}	
 }
 
 .starfall {
 	background-image: url('../images/starfall_bg.jpg');
+
+	@media (max-width: 599px) {
+		background-image: url('../images/starfall_bg-xs.jpg');
+	}	
 }
